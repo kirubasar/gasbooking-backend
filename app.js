@@ -15,7 +15,7 @@ const app = express();
 
 //middlware
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://gasbooking-backend.onrender.com',
 
     credentials: true
 }));
