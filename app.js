@@ -15,7 +15,7 @@ const app = express();
 
 //middlware
 app.use(cors({
-    origin: 'https://gasbooking-backend.onrender.com',
+    origin: 'https://gasfront.netlify.app',
 
     credentials: true
 }));
