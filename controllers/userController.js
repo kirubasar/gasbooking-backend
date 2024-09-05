@@ -59,8 +59,8 @@ const userController = {
         // set a cookie with the token
         res.cookie('token', token, {
          httpOnly: true,
-         sameSite: 'none',
-         secure: true,
+         sameSite: true,
+         secure: false,
          expires: new Date(new Date().getTime() + 24 * 60 * 60 * 1000)
         })
 
