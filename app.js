@@ -15,7 +15,7 @@ const app = express();
 
 //middlware
 app.use(cors({
-    origin: 'https://gasfront.netlify.app',
+    origin: ['https://gasfront.netlify.app', 'http://localhost:5173'],
 
     credentials: true
 }));
